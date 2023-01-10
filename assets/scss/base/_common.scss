@@ -1,0 +1,66 @@
+@charset "utf-8";
+// Reset img
+img {
+    max-width: 100%;
+    height: auto;
+}
+// CSS Reset by [class] - where() 선택자를 지원하는 프로젝트에서 아래 코드를 사용할 수 있음.
+[class] {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+[class]::before,
+[class]::after { box-sizing: border-box; }
+[class]:where(ol, ul) { list-style: none; }
+[class]:where(button, fieldset, iframe, input, select, textarea) { border: 0; }
+[class]:where(button, dialog, input, mark, meter, progress) { background-color: transparent; }
+[class]:where(table) {
+    border: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+[class]:where(button, input, meter, progress, select, textarea) {
+    -webkit-appearance: none;
+    appearance: none;
+    font-family: 'Inter', 'Noto Sans KR', 'Apple SD Gothic Neo', Verdana, 'Malgun Gothic', dotum, sans-serif;
+}
+[class]:where(a) {
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.ko-KR {
+    //font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', Verdana, 'Malgun Gothic', dotum, sans-serif;
+    font-family: 'Inter', 'Noto Sans KR', 'Source Sans Pro', 'Apple SD Gothic Neo', 'Malgun Gothic', '맑은 고딕', dotum, '돋움', 'Roboto', sans-serif;
+    word-break: keep-all;
+}
+// accessibility 대체 텍스트
+.a11y {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+.pc_br {
+    display: block;
+}
+.m_br {
+    display: none;
+}
+@media (max-width: 768px) {
+    .ko-KR {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+    .pc_br {
+        display: none;
+    }
+    .m_br {
+        display: block;
+    }
+}
