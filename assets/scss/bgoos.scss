@@ -63,7 +63,7 @@
             }
         }
     }
-    padding:0;
+    
     .pf {
         padding:150px 90px;
         min-height: 810px;
@@ -89,6 +89,13 @@
         &__txt {
             font-size: 36px;
             font-family: 'Noto Sans KR';
+        }
+        &.plan {
+            video {
+                width: 1200px;
+                left: auto;
+                right: 0;
+            }
         }
     }
     .etc {

@@ -139,9 +139,6 @@ img {
   text-decoration: none;
 }
 
-.bgoosMain {
-  padding: 0;
-}
 .bgoosMain__top {
   padding: 250px 90px;
   -webkit-box-shadow: 0 0 0 100vmax #000;
@@ -189,6 +186,11 @@ img {
 .bgoosMain .pf__txt {
   font-size: 36px;
   font-family: "Noto Sans KR";
+}
+.bgoosMain .pf.plan video {
+  width: 1200px;
+  left: auto;
+  right: 0;
 }
 .bgoosMain .etc {
   text-align: center;
