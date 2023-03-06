@@ -139,6 +139,44 @@ img {
   text-decoration: none;
 }
 
+.bgoosClients {
+  padding: 116px 0 170px;
+  color: #000;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+.bgoosClients .t1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+.bgoosClients .t2 {
+  font-size: 24px;
+}
+.bgoosClients__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 140px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 5rem 0;
+}
+.bgoosClients__item {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .bgoosMain__top {
   padding: 250px 90px;
   -webkit-box-shadow: 0 0 0 100vmax #000;
@@ -187,7 +225,7 @@ img {
   font-size: 36px;
   font-family: "Noto Sans KR";
 }
-.bgoosMain .pf.plan video {
+.bgoosMain .pf.ar video, .bgoosMain .pf.plan video {
   width: 1200px;
   left: auto;
   right: 0;
