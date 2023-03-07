@@ -1,6 +1,8 @@
 // setting common
+@import "function";
 @import "base/common";
 
+// @include vw(font-size, 15px);
 
 // style sheet wright
 [class$='__go'] {
@@ -182,5 +184,204 @@
         font-weight: 300;
     }
 }
+.m_br {
+    display: none;
+}
+.pc_br {
+    display: block;
+}
 // mobile 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .m_br {
+        display: block;
+    }
+    .pc_br {
+        display: none;
+    }
+    .bgoosBody {
+        min-height: 100vh;
+        max-width: 100%;
+    }
+    .bgoosHeader {
+        max-width: 100%;
+        @include vw(padding-top, 34px);
+        @include vw(padding-bottom, 34px);
+        @include vw(padding-left, 22px);
+        @include vw(padding-right, 22px);
+        box-shadow: none;
+        clip-path: none;
+        background-color: #000;
+        
+        .home {            
+            @include vw(font-size, 36px);
+            color:#fff;
+            font-weight: 100;
+        }
+    }
+    .bgoosClients {
+        padding:116px 0 170px;
+        @include vw(padding-top, 60px);
+        @include vw(padding-bottom, 120px);
+        .t1 {
+            @include vw(font-size, 24px);
+        }
+        .t2 {
+            @include vw(font-size, 24px);
+        }
+        &__list {            
+            @include vw(margin-top, 90px);
+            gap:6rem 0;
+        }
+        &__item {
+            width: 50%;
+        }
+    }
+    .bgoosMain {
+        &__top {
+            @include vw(padding-top, 310px);
+            @include vw(padding-left, 26px);
+            @include vw(padding-bottom, 80px);
+            padding-right: 0;
+            box-shadow: none;
+            clip-path: none;
+            .t1 {
+                @include vw(font-size, 64px);
+            }
+            .t2 {
+                @include vw(margin-top, 30px);
+                @include vw(font-size, 28px);
+                @include vw(line-height, 32px);
+                color:#00FC65;
+                span {
+                    font-family: 'Inter';
+                    font-weight: 100;
+                }
+            }
+        }
+        
+        .pf {
+            padding:150px 90px;
+            @include vw(padding-top, 35px);
+            @include vw(padding-left, 32px);
+            @include vw(padding-right, 32px);
+            @include vw(padding-bottom, 25px);
+            min-height: auto;
+            color:#000;
+            position: relative;
+            video {
+                position: static;
+                width: 100%;
+                z-index: 0;
+                @include vw(margin-top, 30px);
+            }
+            &.blue {
+                color:#003ADC;
+            }
+            &__h2 {
+                @include vw(font-size, 44px);
+                @include vw(line-height, 60px);
+                @include vw(margin-bottom, 20px);
+            }
+            &__txt {
+                @include vw(font-size, 18px);
+            }
+            &.ar,
+            &.plan {
+                video {
+                    width: 100%;
+                    left: auto;
+                    right: 0;
+                }
+            }
+            &.ar.bg-black {
+                background-color: #fff;
+            }
+            &.ar.bg-black {
+                .pf__h2 {
+                    color:#003ADC;
+                }
+                .pf__txt {
+                    color:#000000;
+                }
+            }
+            &.web {
+                background: #000;
+                .pf__h2 {
+                    color:#fff;
+                }
+                .pf__txt {
+                    color:#fff;
+                }
+            }
+            &.plan {
+                background: #000;
+                .pf__h2 {
+                    color:#fff;
+                }
+                .pf__txt {
+                    color:#fff;
+                }
+            }
+        }
+        .etc {
+            @include vw(padding-top, 35px);
+            @include vw(padding-left, 32px);
+            @include vw(padding-right, 32px);
+            @include vw(padding-bottom, 25px);
+            &.bg-black {
+                background-color: #fff;
+            }
+        
+            .t1 {
+                @include vw (font-size, 32px);
+                @include vw (margin-top, 78px);
+                color:#000;
+            }
+            .t2 {
+                @include vw (font-size, 20px);
+                @include vw (margin-top, 110px);
+                @include vw (line-height, 30px);
+                color:#000;
+            }
+        }
+        .bg-black {
+            box-shadow: none;
+            clip-path: none;
+            background: #000;
+            color:#fff;
+            & + .bg-black {
+                transform: translateY(-1px);
+            }
+        }
+    }
+    
+    .bgoosFooter {
+        margin-top: auto;
+        max-width: 100%;
+        @include vw(padding-top, 210px);
+        @include vw(padding-bottom, 130px);
+        @include vw(padding-left, 32px);
+        @include vw(padding-right, 32px);
+        box-shadow: none;
+        clip-path: none;
+        background: #fff;
+        &__h2 {
+            @include vw(font-size, 36px);
+            color:#000;
+        }
+        &__mail {
+            color:#000;
+            @include vw(font-size, 32px);            
+        }
+        &__adress {
+            color:#000;
+            @include vw(font-size, 20px);
+            margin-top: 20px;
+        }
+        &__phone {
+            color:#000;
+            @include vw(font-size, 32px);
+            margin-top: 20px;
+        }
+    }   
+}

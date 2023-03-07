@@ -291,3 +291,412 @@ img {
   font-family: "Inter", sans-serif;
   font-weight: 300;
 }
+
+.m_br {
+  display: none;
+}
+
+.pc_br {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .m_br {
+    display: block;
+  }
+  .pc_br {
+    display: none;
+  }
+  .bgoosBody {
+    min-height: 100vh;
+    max-width: 100%;
+  }
+  .bgoosHeader {
+    max-width: 100%;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    -webkit-clip-path: none;
+            clip-path: none;
+    background-color: #000;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosHeader {
+    padding-top: 8.7179487179vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosHeader {
+    padding-bottom: 8.7179487179vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosHeader {
+    padding-left: 5.641025641vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosHeader {
+    padding-right: 5.641025641vw;
+  }
+}
+@media (max-width: 768px) {
+  .bgoosHeader .home {
+    color: #fff;
+    font-weight: 100;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosHeader .home {
+    font-size: 9.2307692308vw;
+  }
+}
+@media (max-width: 768px) {
+  .bgoosClients {
+    padding: 116px 0 170px;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosClients {
+    padding-top: 15.3846153846vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosClients {
+    padding-bottom: 30.7692307692vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosClients .t1 {
+    font-size: 6.1538461538vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosClients .t2 {
+    font-size: 6.1538461538vw;
+  }
+}
+@media (max-width: 768px) {
+  .bgoosClients__list {
+    gap: 6rem 0;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosClients__list {
+    margin-top: 23.0769230769vw;
+  }
+}
+@media (max-width: 768px) {
+  .bgoosClients__item {
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .bgoosMain__top {
+    padding-right: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    -webkit-clip-path: none;
+            clip-path: none;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain__top {
+    padding-top: 79.4871794872vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain__top {
+    padding-left: 6.6666666667vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain__top {
+    padding-bottom: 20.5128205128vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain__top .t1 {
+    font-size: 16.4102564103vw;
+  }
+}
+@media (max-width: 768px) {
+  .bgoosMain__top .t2 {
+    color: #00FC65;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain__top .t2 {
+    margin-top: 7.6923076923vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain__top .t2 {
+    font-size: 7.1794871795vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain__top .t2 {
+    line-height: 8.2051282051vw;
+  }
+}
+@media (max-width: 768px) {
+  .bgoosMain__top .t2 span {
+    font-family: "Inter";
+    font-weight: 100;
+  }
+}
+@media (max-width: 768px) {
+  .bgoosMain .pf {
+    padding: 150px 90px;
+    min-height: auto;
+    color: #000;
+    position: relative;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain .pf {
+    padding-top: 8.9743589744vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain .pf {
+    padding-left: 8.2051282051vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain .pf {
+    padding-right: 8.2051282051vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain .pf {
+    padding-bottom: 6.4102564103vw;
+  }
+}
+@media (max-width: 768px) {
+  .bgoosMain .pf video {
+    position: static;
+    width: 100%;
+    z-index: 0;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain .pf video {
+    margin-top: 7.6923076923vw;
+  }
+}
+@media (max-width: 768px) {
+  .bgoosMain .pf.blue {
+    color: #003ADC;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain .pf__h2 {
+    font-size: 11.2820512821vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain .pf__h2 {
+    line-height: 15.3846153846vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain .pf__h2 {
+    margin-bottom: 5.1282051282vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain .pf__txt {
+    font-size: 4.6153846154vw;
+  }
+}
+@media (max-width: 768px) {
+  .bgoosMain .pf.ar video, .bgoosMain .pf.plan video {
+    width: 100%;
+    left: auto;
+    right: 0;
+  }
+}
+@media (max-width: 768px) {
+  .bgoosMain .pf.ar.bg-black {
+    background-color: #fff;
+  }
+}
+@media (max-width: 768px) {
+  .bgoosMain .pf.ar.bg-black .pf__h2 {
+    color: #003ADC;
+  }
+  .bgoosMain .pf.ar.bg-black .pf__txt {
+    color: #000000;
+  }
+}
+@media (max-width: 768px) {
+  .bgoosMain .pf.web {
+    background: #000;
+  }
+  .bgoosMain .pf.web .pf__h2 {
+    color: #fff;
+  }
+  .bgoosMain .pf.web .pf__txt {
+    color: #fff;
+  }
+}
+@media (max-width: 768px) {
+  .bgoosMain .pf.plan {
+    background: #000;
+  }
+  .bgoosMain .pf.plan .pf__h2 {
+    color: #fff;
+  }
+  .bgoosMain .pf.plan .pf__txt {
+    color: #fff;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain .etc {
+    padding-top: 8.9743589744vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain .etc {
+    padding-left: 8.2051282051vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain .etc {
+    padding-right: 8.2051282051vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain .etc {
+    padding-bottom: 6.4102564103vw;
+  }
+}
+@media (max-width: 768px) {
+  .bgoosMain .etc.bg-black {
+    background-color: #fff;
+  }
+}
+@media (max-width: 768px) {
+  .bgoosMain .etc .t1 {
+    color: #000;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain .etc .t1 {
+    font-size: 8.2051282051vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain .etc .t1 {
+    margin-top: 20vw;
+  }
+}
+@media (max-width: 768px) {
+  .bgoosMain .etc .t2 {
+    color: #000;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain .etc .t2 {
+    font-size: 5.1282051282vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain .etc .t2 {
+    margin-top: 28.2051282051vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosMain .etc .t2 {
+    line-height: 7.6923076923vw;
+  }
+}
+@media (max-width: 768px) {
+  .bgoosMain .bg-black {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    -webkit-clip-path: none;
+            clip-path: none;
+    background: #000;
+    color: #fff;
+  }
+  .bgoosMain .bg-black + .bg-black {
+    -webkit-transform: translateY(-1px);
+            transform: translateY(-1px);
+  }
+}
+@media (max-width: 768px) {
+  .bgoosFooter {
+    margin-top: auto;
+    max-width: 100%;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    -webkit-clip-path: none;
+            clip-path: none;
+    background: #fff;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosFooter {
+    padding-top: 53.8461538462vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosFooter {
+    padding-bottom: 33.3333333333vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosFooter {
+    padding-left: 8.2051282051vw;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosFooter {
+    padding-right: 8.2051282051vw;
+  }
+}
+@media (max-width: 768px) {
+  .bgoosFooter__h2 {
+    color: #000;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosFooter__h2 {
+    font-size: 9.2307692308vw;
+  }
+}
+@media (max-width: 768px) {
+  .bgoosFooter__mail {
+    color: #000;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosFooter__mail {
+    font-size: 8.2051282051vw;
+  }
+}
+@media (max-width: 768px) {
+  .bgoosFooter__adress {
+    color: #000;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosFooter__adress {
+    font-size: 5.1282051282vw;
+  }
+}
+@media (max-width: 768px) {
+  .bgoosFooter__phone {
+    color: #000;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 768px) and (max-width: 768px) {
+  .bgoosFooter__phone {
+    font-size: 8.2051282051vw;
+  }
+}
